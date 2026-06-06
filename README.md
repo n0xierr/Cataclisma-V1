@@ -1,57 +1,64 @@
+
 # 🌋 Cataclisma V1
 
-> Um bot avançado para Minecraft desenvolvido com Mineflayer.
->
-> 
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+> 🤖 Bot inteligente para Minecraft baseado em Mineflayer com IA local e memória persistente.
 
 ---
 
-## ✨ Recursos
+## ✨ Features
 
-* 🤖 Sistema de IA integrado
-* 🧠 Memória persistente de jogadores
-* 👀 Observa jogadores próximos
-* 💬 Responde mensagens no chat
-* 🔄 Reconexão automática
-* 🎭 Alteração automática de skin
-* ⚡ Fácil personalização
-* 🌐 Código aberto
+- 🤖 IA integrada (Ollama)
+- 🧠 Memória persistente de jogadores
+- 👀 Detecta jogadores próximos
+- 💬 Responde automaticamente no chat
+- 🔄 Auto-reconnect
+- 🎭 Sistema de skin dinâmico
+- ⚡ Fácil configuração
+- 🌐 Open source
 
 ---
 
 ## 📦 Tecnologias
 
-* Node.js
-* Mineflayer
-* Mineflayer Pathfinder
-* Ollama
-* JavaScript
+- Node.js
+- Mineflayer
+- Mineflayer Pathfinder
+- Ollama
+- JavaScript
 
 ---
 
 ## 🚀 Instalação
 
-Clone o repositório:
-
+### 1. Clone o repositório
 ```bash
 git clone https://github.com/n0xierr/Cataclisma-V1.git
-```
-
-Entre na pasta:
-
-```bash
 cd Cataclisma-V1
-```
+````
 
-Instale as dependências:
+### 2. Instale as dependências
 
 ```bash
 npm install
 ```
-chmod +x install.sh
-./install.sh
 
-Execute o bot:
+### 3. Dê permissão (Linux / Termux)
+
+```bash
+chmod +x install.sh
+```
+
+### 4. Execute o instalador
+
+```bash
+./install.sh
+```
+
+### 5. Inicie o bot
 
 ```bash
 node bot.js
@@ -61,47 +68,45 @@ node bot.js
 
 ## ⚙️ Configuração
 
-Configure os dados do servidor em:
+Edite as informações do servidor no código:
 
 ```js
-host: 'SEU_SERVIDOR'
-port: 25565
-username: 'NomeDoBot'
-version: '1.21.4'
+host: "SEU_SERVIDOR",
+port: 25565,
+username: "NomeDoBot",
+version: "1.21.4"
 ```
 
 ---
 
 ## 💬 Comandos
 
-| Comando         | Função                    |
-| --------------- | ------------------------- |
-| oi              | Cumprimenta o jogador     |
-| segue kari11    | Faz o bot seguir você     |
-| para            | Faz o bot parar de seguir |
-| kari11 pergunta | Conversa com a IA         |
+| Comando           | Função                    |
+| ----------------- | ------------------------- |
+| `oi`              | Cumprimenta jogador       |
+| `segue kari11`    | Faz o bot seguir o player |
+| `para`            | Para de seguir            |
+| `kari11 pergunta` | Conversa com a IA         |
 
 ---
 
 ## 🧠 Sistema de Memória
 
-O Cataclisma V1 registra informações dos jogadores:
-
-* Número de interações
-* Última mensagem enviada
-* Histórico persistente
-
-Os dados são armazenados em:
+O bot salva informações dos jogadores em:
 
 ```txt
 memoria.json
 ```
 
+Inclui:
+
+* Interações
+* Última mensagem
+* Histórico de conversa
+
 ---
 
-## 🤖 IA Local
-
-O projeto suporta integração com Ollama.
+## 🤖 IA Local (Ollama)
 
 Modelos recomendados:
 
@@ -116,27 +121,21 @@ ollama pull gemma3
 
 ---
 
-## 📸 Demonstração
-
-Em breve...
-
----
-
 ## 🛣️ Roadmap
 
 ### V1
 
-* [x] Memória persistente
-* [x] IA integrada
-* [x] Reconexão automática
+* ✔ Memória persistente
+* ✔ IA integrada
+* ✔ Auto-reconnect
 
 ### V2
 
-* [ ] Sistema de amizades
-* [ ] Proteção de jogadores
-* [ ] Discord Bot
-* [ ] Painel Web
-* [ ] Comandos avançados
+* ⏳ Sistema de amizades
+* ⏳ Proteção de jogadores
+* ⏳ Integração com Discord
+* ⏳ Painel web
+* ⏳ Sistema de comandos avançados
 
 ---
 
@@ -144,15 +143,17 @@ Em breve...
 
 Desenvolvido por **N0xierr**
 
-GitHub:
-https://github.com/n0xierr
+GitHub: [https://github.com/n0xierr](https://github.com/n0xierr)
 
 ---
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
+Este projeto está sob licença MIT.
 
 ---
 
-⭐ Se este projeto te ajudou, considere deixar uma estrela no repositório.
+⭐ Se curtiu o projeto, deixe uma estrela no repositório!
+
+```
+
